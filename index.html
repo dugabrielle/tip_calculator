@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">/
+    <title>Calculator</title>
+</head>
+<body>
+    <main>
+    <h1>Tip Calculator</h1>
+    <section>
+        <div clas="bill">
+            <label for="yourBill">Bill</label>
+            <input type="number" placeholder="Your bill" id="yourBill"/>
+        </div>
+        <div class="tip">
+           <label for="tipPercentage">Tip</label>
+           <input type="number" placeholder="%" id="tipPercentage"/>
+        </div>
+        <div class="split">
+            <label for="splitPeople">Split?</label>
+            <input type="number" placeholder="Number of people" id="splitPeople"/>
+        </div>
+        <br>
+        <div class="buttons">
+            <button class="calculate" onclick="tipCalculator()">CALCULATE</button>
+        </div>
+        <br>
+        <div class="total">
+            <label for="billTotal">Total</label>
+            <input type="number" placeholder="$" id="billTotal"/>
+        </div>
+        <div class="tipAmount">
+            <label for="tipTotal">Tip Total</label>
+            <input type="number" placeholder="$" id="tipTotal"/>
+        </div>
+        <div class="each">
+            <label for="billEach">Bill Each</label>
+            <input type="number" placeholder="$" id="billEach"/>
+        </div>
+</main>
+</section>
+    <script src="index.js"></script>
+</body>
+</html>
