@@ -1,7 +1,7 @@
 function tipCalculator(){
-    let yourBill = parseInt(document.getElementById('yourBill').value);
-    let tipPercentage = parseInt(document.getElementById('tipPercentage').value);
-    let splitPeople = parseInt(document.getElementById('splitPeople').value);
+    let yourBill = parseFloat(document.getElementById('yourBill').value);
+    let tipPercentage = parseFloat(document.getElementById('tipPercentage').value);
+    let splitPeople = parseFloat(document.getElementById('splitPeople').value);
 
     let billTotal = document.getElementById('billTotal');
     let tipTotal = document.getElementById('tipTotal');
