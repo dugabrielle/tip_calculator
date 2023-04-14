@@ -1,3 +1,4 @@
+
 function tipCalculator(){
     let yourBill = parseFloat(document.getElementById('yourBill').value);
     let tipPercentage = parseFloat(document.getElementById('tipPercentage').value);
