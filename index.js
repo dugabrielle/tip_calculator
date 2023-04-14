@@ -15,4 +15,3 @@ function tipCalculator(){
     billTotal.value = totalbillAmount;
     billEach.value = totaleachBill;
 }
-
