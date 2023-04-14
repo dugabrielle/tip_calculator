@@ -12,7 +12,7 @@ function tipCalculator(){
     let totalbillAmount = yourBill + totaltipBill;
     let totaleachBill = totaltipBill / splitPeople;
 
-    tipTotal.value = totaltipBill;
-    billTotal.value = totalbillAmount;
-    billEach.value = totaleachBill;
+    tipTotal.value = totaltipBill.toFixed(2);
+    billTotal.value = totalbillAmount.toFixed(2);
+    billEach.value = totaleachBill.toFixed(2);
 }
