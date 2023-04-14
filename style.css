@@ -44,17 +44,6 @@ input[type="number"] {
     padding: 0.5px;
 }
 
-.clear {
-    background-color: #000000;
-    border: none;
-    color: #FFFFFF;
-    font-weight: bold;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
 .calculate {
     background-color: #000000;
     border: none;
