@@ -10,7 +10,7 @@ function tipCalculator(){
 
     let totaltipBill = (yourBill * tipPercentage) / 100;
     let totalbillAmount = yourBill + totaltipBill;
-    let totaleachBill = totaltipBill / splitPeople;
+    let totaleachBill = totalbillAmount / splitPeople;
 
     tipTotal.value = totaltipBill.toFixed(2);
     billTotal.value = totalbillAmount.toFixed(2);
